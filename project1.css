@@ -1,0 +1,356 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    height: 1000px;
+    
+}
+.img_logo {
+    width: 15%;
+    height: 100px;
+    position: relative;right: 400px;
+}
+.btn_sign_in {
+    background-color: #e50914;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+}
+
+.btn_sign_in :hover {
+    background-color: darkred
+    
+}
+.nav_bar {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main_titles_container {
+    color: white;
+
+    text-align: center;
+    width: 50%;
+}
+.main_title {
+    font-size: 3.2em;
+    padding-left: 400px;
+    height: 100px;
+    width: 450px;
+}
+.main_subtitle {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding-left: 400px;
+    height: 30px;
+    width: 450px;
+}
+.main_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    padding-left: 300px;
+    height: 50px;
+    width: 700px;
+    color: white;
+}
+.root {
+    
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.mail_email_container_input {
+    outline: none;
+    border: none;
+    font-size: 12pt;
+    height: 48px;
+    width: 400px;
+    position:absolute;
+    left: 390px;
+    background-color: rgba(0, 0, 0, 0.441);
+    color: white;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+#btn {
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e50914;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    height: 53px;
+    position: absolute;top: 403px;
+    position: absolute;
+    left: 800px;
+    width: 150px;
+    border-radius: 10px;
+    border-color: #e50914;
+
+}
+#btn:hover {
+    
+    background-color: darkred;
+    border-color:darkred;
+}
+.ranked_movies {
+    color: white;
+    position: absolute;top: 850px;
+    font-size: 36pt;
+    left: 400px;
+
+}
+.box1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    top: 1000px;
+    border: rgb(244, 240, 240);
+    background-color: transparent;
+    margin: 5px 0px;
+
+}
+
+.content1 {
+    width: 20%;
+
+    margin:  15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+
+    background: rgb(58, 52, 52)
+    
+}
+
+.content1:hover {
+   background-color: black;
+}
+.watch1 {
+    /* margin: 10px 0px; */
+    background: rgb(160, 11, 11);
+    padding-bottom: 15px;
+}
+
+.watch1:hover {
+    color: white;
+    background-color: black;
+}
+.box2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: left 200px;
+    align-items: center;
+    position: absolute;
+    top: 970px;
+    border: rgb(244, 240, 240);
+    background-color: transparent;
+    margin: 30px 250px;
+}
+
+.content2 {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    height: 550px;
+    background: rgb(58, 52, 52)
+}
+
+.content2:hover {
+   background-color: black;
+}
+.watch2 {
+    background: rgb(160, 11, 11);
+}
+
+.watch2:hover {
+    color: white;
+    background-color: black;
+}
+.box3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: left 200px;
+    align-items: center;
+    position: absolute;
+    top: 970px;
+    border: rgb(244, 240, 240);
+    background-color: transparent;
+    margin: 30px 500px;
+}
+
+.content3 {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    height: 550px;
+    background: rgb(58, 52, 52)
+}
+
+.content3:hover {
+   background-color: black;
+}
+.watch3 {
+    background: rgb(160, 11, 11);
+}
+
+.watch3:hover {
+    color: white;
+    background-color: black;
+}
+.box4 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: left 200px;
+    align-items: center;
+    position: absolute;
+    top: 970px;
+    border: rgb(244, 240, 240);
+    background-color: transparent;
+    margin: 30px 750px;
+}
+
+.content4 {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    height: 550px;
+    background: rgb(58, 52, 52)
+}
+
+.content4:hover {
+   background-color: black;
+}
+.watch4 {
+    background: rgb(160, 11, 11);
+}
+
+.watch4:hover {
+    color: white;
+    background-color: black;
+}
+.box5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: left 200px;
+    align-items: center;
+    position: absolute;
+    top: 970px;
+    border: rgb(244, 240, 240);
+    background-color: transparent;
+    margin: 35px 1000px;
+}
+
+.content5 {
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    height: 550px;
+    background: rgb(58, 52, 52)
+}
+
+.content5:hover {
+   background-color: black;
+    
+}
+.watch5 {
+    background: rgb(160, 11, 11);
+}
+
+.watch5:hover {
+    color: white;
+    background-color: black;
+}
+
+img {
+    width: 220px;
+    height: 280px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p {
+    text-align: center;
+    color: rgb(232, 231, 234);
+    padding-top: 0 8px;
+}
+
+button {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    width: 100%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+
+.movie1_name {
+    color: white;
+}
+.movie2_name {
+    color: white;
+}
+.movie3_name {
+    color: white;
+}
+.movie4_name {
+    color: white;
+}
+.movie5_name {
+    color: white;
+}
+
+    
